@@ -24,7 +24,7 @@ export default function Header({ mode, onModeChange, spread }) {
         </nav>
       )}
       <div className="vt" role="group" aria-label="Choose version">
-        {['book', 'plain'].map((version) => (
+        {['plain', 'book'].map((version) => (
           <button
             key={version}
             type="button"

@@ -5,7 +5,7 @@ import PlainPortfolio from './components/PlainPortfolio.jsx';
 import { useJournal } from './hooks/useJournal.js';
 
 export default function App() {
-  const [mode, setMode] = useState('book');
+  const [mode, setMode] = useState('plain');
   const journal = useJournal();
 
   return (
