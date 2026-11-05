@@ -1,0 +1,16 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+}
+#root {
+  min-height: 100vh;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #a0584b;
+  outline-offset: 4px;
+}
