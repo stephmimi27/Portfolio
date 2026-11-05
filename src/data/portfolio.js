@@ -94,17 +94,7 @@ export const projects = [
       'An independent Oracle SQL project for organizing collection data, with a schema designed from scratch.',
     patchIndex: 6,
   },
-  {
-    id: 'pinkwallet',
-    name: 'PinkWallet',
-    label: 'FINTECH PROTOTYPE',
-    labelClass: 't3',
-    bookDescription:
-      'A crypto-to-fiat transfer concept with an interactive multi-screen flow, from recipients to OTP verification and rate lock.',
-    plainDescription:
-      'A fintech prototype for crypto-to-fiat transfers, with an interactive multi-screen flow covering recipient management, OTP verification and a rate lock.',
-    patchIndex: 4,
-  },
+
 ];
 
 export const interests = [
