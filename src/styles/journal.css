@@ -349,12 +349,10 @@
 .cr {
   right: 0;
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  background: linear-gradient(135deg, #fbf7ea 0 46%, #c0392b 47%, #d9604f);
 }
 .cl {
   left: 0;
   clip-path: polygon(0 0, 100% 100%, 0 100%);
-  background: linear-gradient(225deg, #fbf7ea 0 46%, #a9c79a 47%, #cfe0c2);
 }
 .corner span {
   position: absolute;
