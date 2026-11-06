@@ -9,7 +9,7 @@ export const profile = {
   plainTagline: 'Computer Science and Business graduate, UBC Sauder (2026)',
   introduction:
     'Computer Science and Business graduate from UBC Sauder. I like building products where technical depth meets business thinking.',
-  photoPlaceholder: '[YOUR PHOTO]',
+  photoPlaceholder: '',
   email: 'stephmimi27@gmail.com',
   linkedIn: 'https://www.linkedin.com/in/stephanie-mimi-cao/',
 };
