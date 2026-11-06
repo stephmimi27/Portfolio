@@ -327,6 +327,7 @@
   padding: 6px 16px;
 }
 .corner {
+  background: transparent;
   position: absolute;
   bottom: 0;
   width: 92px;
@@ -349,6 +350,7 @@
 .cr {
   right: 0;
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  
 }
 .cl {
   left: 0;
@@ -360,7 +362,6 @@
 }
 .cr span {
   right: 10px;
-  color: #fff;
 }
 .cl span {
   left: 10px;
