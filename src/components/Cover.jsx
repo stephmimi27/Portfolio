@@ -12,7 +12,7 @@ export default function Cover({ className }) {
           <div className="cover-subtitle">{profile.degree}</div>
           <div className="cover-subtitle">{profile.classLabel}</div>
         </div>
-        <div className="cv-hint">tap the red corner to open</div>
+        <div className="cv-hint">tap the corner to open</div>
       </div>
       <Introduction className="pg face back" />
     </div>
