@@ -117,10 +117,6 @@ export const interests = [
 
 export const books = [
   {
-    title: 'Normal People',
-    author: 'Sally Rooney',
-  },
-  {
     title: 'The Anthropocene Reviewed',
     author: 'John Green',
   },

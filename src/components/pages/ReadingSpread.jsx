@@ -18,40 +18,6 @@ export default function ReadingSpread() {
             marginTop: '36px',
           }}
         >
-          <div className="pol" style={{ transform: 'rotate(-3deg)' }}>
-            <div className="tp" />
-            <div className="cov" style={{ background: '#b9cfc6', color: '#27413c' }}>
-              <i>a novel</i>
-              <div
-                style={{
-                  position: 'absolute',
-                  left: '30px',
-                  top: '56px',
-                  width: '80px',
-                  height: '80px',
-                  borderRadius: '50%',
-                  background: 'rgba(255,255,255,.5)',
-                }}
-              />
-              <div
-                style={{
-                  position: 'absolute',
-                  left: '62px',
-                  top: '82px',
-                  width: '80px',
-                  height: '80px',
-                  borderRadius: '50%',
-                  background: 'rgba(39,65,60,.22)',
-                }}
-              />
-              <div style={{ position: 'relative' }}>
-                <b>{books[0].title}</b>
-                <br />
-                <i>{books[0].author}</i>
-              </div>
-            </div>
-            <div className="by">{books[0].author}</div>
-          </div>
           <div className="pol" style={{ transform: 'rotate(2.5deg)', marginTop: '30px' }}>
             <div className="tp" style={{ backgroundColor: '#cfdcc0' }} />
             <div
@@ -93,12 +59,12 @@ export default function ReadingSpread() {
                 }}
               />
               <div style={{ position: 'relative' }}>
-                <b>{books[1].title}</b>
+                <b>{books[0].title}</b>
                 <br />
-                <i>{books[1].author}</i>
+                <i>{books[0].author}</i>
               </div>
             </div>
-            <div className="by">{books[1].author}</div>
+            <div className="by">{books[0].author}</div>
           </div>
         </div>
       </div>
@@ -133,12 +99,12 @@ export default function ReadingSpread() {
               />
               <i style={{ position: 'relative' }}>a novel</i>
               <div style={{ position: 'relative' }}>
-                <b>{books[2].title}</b>
+                <b>{books[1].title}</b>
                 <br />
-                <i>{books[2].author}</i>
+                <i>{books[1].author}</i>
               </div>
             </div>
-            <div className="by">{books[2].author}</div>
+            <div className="by">{books[1].author}</div>
           </div>
           <div
             className="kraft"
@@ -147,7 +113,6 @@ export default function ReadingSpread() {
             <h4>READING LIST</h4>
             <p>{books[0].title}</p>
             <p>{books[1].title}</p>
-            <p>{books[2].title}</p>
           </div>
         </div>
       </div>
