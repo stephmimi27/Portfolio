@@ -14,7 +14,7 @@ export default function ExperienceSpread() {
           <PortfolioCard key={item.id} item={item} />
         ))}
       </div>
-      <div className="pg dotpg">
+      <div className="pg dotpg compact-cards">
         <span className="ts post" style={{ top: 42, right: 34, transform: 'rotate(4deg)' }}>
           MONTREAL YUL
         </span>

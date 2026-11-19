@@ -7,6 +7,7 @@ import {
   books,
   places,
   education,
+  skills,
 } from '../data/portfolio.js';
 
 export default function PlainPortfolio() {
@@ -19,7 +20,7 @@ export default function PlainPortfolio() {
         <h1>{profile.name}</h1>
         <p className="p-tag">{profile.plainTagline}</p>
         <p className="p-meta">
-          {profile.email} &nbsp;·&nbsp; {profile.linkedIn}
+          {profile.email} &nbsp;·&nbsp; {profile.linkedIn} &nbsp;·&nbsp; {profile.github}
         </p>
       </section>
       <section id="about">
@@ -69,6 +70,12 @@ export default function PlainPortfolio() {
           </div>
         ))}
       </section>
+      <section id="skills">
+        <h2>Technical skills</h2>
+        {skills.map((skill) => (
+          <p key={skill.category}><strong>{skill.category}:</strong> {skill.items}</p>
+        ))}
+      </section>
       <section id="interests">
         <h2>Interests</h2>
         <ul>
@@ -97,6 +104,8 @@ export default function PlainPortfolio() {
           {profile.email}
           <br />
           {profile.linkedIn}
+          <br />
+          {profile.github}
         </p>
       </section>
     </main>

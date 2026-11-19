@@ -1,7 +1,7 @@
 // Edit the portfolio content here. Both Book and Plain views use these exports.
 
 export const profile = {
-  name: 'Stephanie',
+  name: 'Stephanie Cao',
   nameLower: 'stephanie',
   coverLabel: 'PORTFOLIO 2026',
   degree: 'Computer Science and Business',
@@ -12,89 +12,98 @@ export const profile = {
   photoPlaceholder: '',
   email: 'stephmimi27@gmail.com',
   linkedIn: 'https://www.linkedin.com/in/stephanie-mimi-cao/',
+  github: 'https://github.com/stephmimi27',
 };
 
 export const about = {
   book: [
     'I studied Computer Science and Business, and I’m happiest where the two meet. I care about making technology that people actually trust and use.',
-    'I’ve built an NLP compliance tool, worked on trade data automation in asset management, and done research on retrieval-augmented generation.',
+    'I’ve built an NLP compliance tool, worked on trade data automation in asset management, and researched AI agents and language models.',
   ],
   plain: [
     'I studied Computer Science and Business at UBC Sauder and focus on work where technical depth meets business thinking. I care about building technology that people trust and adopt.',
-    'My experience includes an NLP compliance product at TELUS, trade data automation at RBC Global Asset Management, and research on retrieval-augmented generation at UBC.',
+    'My experience includes an NLP compliance product at TELUS, trade data automation at RBC Global Asset Management, and AI agent and language model research at UBC.',
   ],
 };
 
 export const experience = [
   {
-    id: 'telus',
-    organization: 'TELUS',
-    label: 'TELUS',
-    labelClass: 't3',
-    role: 'Technical Product Manager Intern',
-    dates: '2025',
-    bookDescription:
-      'Built an NLP compliance engine used across 40+ business units, replacing a manual review process.',
+    id: 'ubc', organization: 'University of British Columbia', label: 'UBC', labelClass: 't1',
+    role: 'Research Assistant – AI Agents & Model Development', dates: 'Jun 2025 – Jun 2026',
+    bookDescription: 'Designed RAG agents and contextual NLP pipelines, evaluating model cost and latency.',
     plainBullets: [
-      'Built an NLP compliance engine used across 40+ business units.',
-      'Replaced a manual compliance review process with automated flagging.',
-    ],
-    patchIndex: 0,
+      'Architected NLP embedding pipelines, selecting BERT over word2vec for context-aware models.',
+      'Prepared data through CSV transformation, cleaning, summarization and key implementation.',
+      'Designed RAG agents using OpenAI’s API and SDK tools to evaluate three agents’ cost and latency.',
+      'Aligned international partners on model selection and the project’s technical roadmap for a planned publication.',
+    ], patchIndex: 7,
   },
   {
-    id: 'rbc',
-    organization: 'RBC Global Asset Management',
-    label: 'RBC GLOBAL ASSET MANAGEMENT',
-    labelClass: 't2',
-    role: 'Technical Business Operations Analyst',
-    dates: '2024',
-    bookDescription: 'Worked on trade data routing and automation alongside DevOps teams.',
+    id: 'telus', organization: 'TELUS', label: 'TELUS', labelClass: 't3',
+    role: 'AI Research and Development Technical Product Manager Intern', dates: 'Jan 2025 – Apr 2025',
+    bookDescription: 'Built data tools and led an NLP compliance product for 28,000 employees.',
     plainBullets: [
-      'Worked on trade data routing and automation.',
-      'Collaborated with DevOps teams.',
-    ],
-    patchIndex: 2,
+      'Used interviews and A/B tests across 40+ business units to identify reporting bottlenecks and rule out three low-impact features.',
+      'Designed a real-time dashboard pipeline that reduced charting work by 85%.',
+      'Shipped a data visualization web app, with workshops and documentation that raised adoption by 30%.',
+      'Defined an enterprise NLP compliance engine as product owner, scaling it to 28,000 employees for town halls.',
+    ], patchIndex: 0,
   },
   {
-    id: 'ubc',
-    organization: 'University of British Columbia',
-    label: 'UBC',
-    labelClass: 't1',
-    role: 'Research Assistant',
-    dates: '2026',
-    bookDescription: 'Built RAG agents with OpenAI’s API and worked with word2vec NLP models.',
+    id: 'rbc-sdet', organization: 'RBC Global Asset Management', label: 'RBC GLOBAL ASSET MANAGEMENT', labelClass: 't2',
+    role: 'Software Development Engineer in Test Intern', dates: 'May 2024 – Aug 2024',
+    bookDescription: 'Improved test automation and security for an internal trading tool.',
     plainBullets: [
-      'Built retrieval-augmented generation (RAG) agents using OpenAI’s API.',
-      'Worked with word2vec NLP models.',
-    ],
-    patchIndex: 7,
+      'Authored a SQL guide for product managers working with more than 50 pages of test plans.',
+      'Initiated regression test automation with Selenium and Python for an internal trading tool.',
+      'Refactored over 30 core library functions, accelerating runtime by 35%.',
+      'Implemented input validation and least-privilege access controls to prevent SQL injection.',
+    ], patchIndex: 2,
   },
   {
-    id: 'mosa',
-    organization: 'Mosa',
-    label: 'MOSA',
-    labelClass: 't4',
-    role: 'Developer',
-    dates: '2023',
-    bookDescription: 'Helped build an e-commerce storefront at an early-stage startup.',
-    plainBullets: ['Contributed to an e-commerce storefront at an early-stage startup.'],
-    patchIndex: 3,
+    id: 'rbc-operations', organization: 'RBC Global Asset Management', label: 'RBC GLOBAL ASSET MANAGEMENT', labelClass: 't2',
+    role: 'Technical Business Operations Analyst Intern', dates: 'Sept 2023 – Apr 2024',
+    bookDescription: 'Managed trade automation and improved disaster recovery workflows.',
+    plainBullets: [
+      'Managed 200+ automation workflows, tracking failures and documenting fixes, with an average of 93 monthly solves.',
+      'Directed real-time trade data flows using custom ActiveBatch workflows.',
+      'Automated workload shifts to new clusters for disaster recovery, increasing efficiency by 70%.',
+    ], patchIndex: 2,
+  },
+  {
+    id: 'mosa', organization: 'Mosa', label: 'MOSA', labelClass: 't4',
+    role: 'Software Engineering Intern', dates: 'Jan 2023 – Apr 2023',
+    bookDescription: 'Built an e-commerce platform and prototypes for a retail website migration.',
+    plainBullets: [
+      'Built iterative prototypes with a team of three to improve the user experience of a retail website migration.',
+      'Integrated third-party email campaign tools with marketing, increasing engagement by 1,000+ users.',
+      'Delivered an e-commerce platform using JavaScript and Liquid, increasing online orders by 200%.',
+    ], patchIndex: 3,
   },
 ];
 
 export const projects = [
   {
-    id: 'smiskiwarehouse',
-    name: 'SmiskiWarehouse',
-    label: 'ORACLE SQL',
-    labelClass: 't4',
-    bookDescription:
-      'An independent database project for organizing collection data, with a schema designed from scratch.',
-    plainDescription:
-      'An independent Oracle SQL project for organizing collection data, with a schema designed from scratch.',
-    patchIndex: 6,
+    id: 'patentchecker', name: 'PatentChecker', label: 'AI / ML', labelClass: 't3',
+    bookDescription: 'Analyzed patent similarity with BERT, OpenAI models and a nine-million-entry database.',
+    plainDescription: 'Used GCP, BERT, Python, PyTorch, sklearn, Node.js and OpenAI APIs to analyze patent similarity and present quantitative and qualitative visualizations.', patchIndex: 7,
   },
+  {
+    id: 'campusexplorer', name: 'CampusExplorer', label: 'REACT / TYPESCRIPT', labelClass: 't2',
+    bookDescription: 'A full-stack search and visualization app built to analyze 64,000+ queries.',
+    plainDescription: 'Built a full-stack application using TypeScript, JavaScript, Express and React to analyze 64,000+ queries, with search and charting interfaces.', patchIndex: 1,
+  },
+  {
+    id: 'smiskiwarehouse', name: 'SmiskiWarehouse', label: 'ORACLE SQL', labelClass: 't4',
+    bookDescription: 'A warehouse database and React dashboard for real-time supply chain insights.',
+    plainDescription: 'Designed an Oracle relational database for warehouse processes and integrated SQL queries into a React application with real-time supply chain dashboards.', patchIndex: 6,
+  },
+];
 
+export const skills = [
+  { category: 'AI/ML & Data', items: 'Python, R, PyTorch, sklearn, LLMs, Transformers, SQL, data pipelines, Tableau' },
+  { category: 'Full-Stack & Design', items: 'Java, C++, C, JavaScript, TypeScript, React, Node.js, Express.js, HTML/CSS, Figma' },
+  { category: 'Infrastructure & DevOps', items: 'GCP, Git, Jira, Confluence, Selenium, JUnit, Agile methodology' },
 ];
 
 export const interests = [
@@ -346,7 +355,10 @@ export const places = [
 
 export const education = {
   school: 'UBC Sauder School of Business',
-  year: '2026',
-  degree: 'Combined Major in Computer Science and Business',
-  details: ['Beedie Luminaries scholarship recipient.'],
+  year: 'Completed May 2026',
+  degree: 'Bachelor of Computer Science & Business',
+  details: [
+    'Key courses: Algorithms & Data Structures, Software Engineering, Relational Databases, Applied ML & AI.',
+    'Awards: Beedie Luminaries ($44,000), UBC Centennial ($12,000), and first in class at HKUST with a full-ride scholarship.',
+  ],
 };

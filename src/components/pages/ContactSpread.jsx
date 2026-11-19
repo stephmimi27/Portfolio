@@ -14,6 +14,7 @@ export default function ContactSpread() {
             <span className="label t3">WRITE TO ME</span>
             <p style={{ margin: '8px 0 2px' }}>{profile.email}</p>
             <p style={{ margin: '2px 0' }}>{profile.linkedIn}</p>
+            <p style={{ margin: '2px 0' }}>{profile.github}</p>
           </div>
         </div>
       </div>

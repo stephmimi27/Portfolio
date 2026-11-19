@@ -4,7 +4,7 @@ import { interests, projects } from '../../data/portfolio.js';
 export default function ProjectsSpread() {
   return (
     <>
-      <div className="pg dotpg">
+      <div className="pg dotpg compact-cards">
         <span className="ts ring" style={{ top: 30, right: 40, transform: 'rotate(8deg)' }}>
           <b style={{ fontSize: 9 }}>NEW YORK</b>NYC
         </span>

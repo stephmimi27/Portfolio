@@ -1012,3 +1012,17 @@
 .btn {
   text-transform: uppercase;
 }
+
+/* Keep the three resume entries readable within a journal page. */
+.compact-cards .card {
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.compact-cards .tile {
+  width: 60px;
+  height: 60px;
+}
+.compact-cards .ic {
+  width: 44px;
+  height: 44px;
+}
