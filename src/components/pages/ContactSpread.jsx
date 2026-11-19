@@ -1,4 +1,4 @@
-import { profile } from '../../data/portfolio.js';
+import ContactLinks from '../ContactLinks.jsx';
 
 export default function ContactSpread() {
   return (
@@ -12,9 +12,7 @@ export default function ContactSpread() {
           </div>
           <div>
             <span className="label t3">WRITE TO ME</span>
-            <p style={{ margin: '8px 0 2px' }}>{profile.email}</p>
-            <p style={{ margin: '2px 0' }}>{profile.linkedIn}</p>
-            <p style={{ margin: '2px 0' }}>{profile.github}</p>
+            <p style={{ margin: '8px 0 2px', overflowWrap: 'anywhere' }}><ContactLinks /></p>
           </div>
         </div>
       </div>

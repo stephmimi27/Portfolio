@@ -1,3 +1,4 @@
+import ContactLinks from './ContactLinks.jsx';
 import {
   profile,
   about,
@@ -20,7 +21,7 @@ export default function PlainPortfolio() {
         <h1>{profile.name}</h1>
         <p className="p-tag">{profile.plainTagline}</p>
         <p className="p-meta">
-          {profile.email} &nbsp;·&nbsp; {profile.linkedIn} &nbsp;·&nbsp; {profile.github}
+          <ContactLinks separator={<> &nbsp;·&nbsp; </>} />
         </p>
       </section>
       <section id="about">
@@ -101,11 +102,7 @@ export default function PlainPortfolio() {
       <section id="contact">
         <h2>Contact</h2>
         <p>
-          {profile.email}
-          <br />
-          {profile.linkedIn}
-          <br />
-          {profile.github}
+          <ContactLinks />
         </p>
       </section>
     </main>
